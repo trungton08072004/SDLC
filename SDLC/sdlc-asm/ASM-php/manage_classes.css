@@ -1,0 +1,90 @@
+/* Đặt nền của trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tiêu đề của trang */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Bảng danh sách lớp học */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* Liên kết Sửa, Xóa */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Nút Thêm lớp học mới */
+a[href="add_class.php"] {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a[href="add_class.php"]:hover {
+    background-color: #45a049;
+}
+
+/* Nút quay lại trang chính của Admin */
+a[href="admin_dashboard.php"] button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    display: block;
+    margin: 20px auto;
+}
+
+a[href="admin_dashboard.php"] button:hover {
+    background-color: #45a049;
+}

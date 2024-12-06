@@ -1,0 +1,52 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the admin dashboard */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Links styling */
+a {
+    display: block;
+    margin: 10px 0;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #45a049;
+}
+
+a:active {
+    background-color: #388e3c;
+}
+
+/* Log out link */
+a:last-child {
+    background-color: #f44336;
+}
+
+a:last-child:hover {
+    background-color: #e53935;
+}

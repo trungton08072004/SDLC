@@ -1,0 +1,84 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    /* Màu nền của trang */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the admin dashboard */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Căn giữa nội dung */
+}
+
+/* Heading */
+h1 {
+    color: #4CAF50;
+    /* Màu xanh lá cho tiêu đề */
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Links styling */
+a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 15px 20px;
+    background-color: #4CAF50;
+    /* Màu nền xanh lá cho các liên kết */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: #45a049;
+    /* Màu nền xanh lá đậm khi hover */
+}
+
+a:active {
+    background-color: #388e3c;
+    /* Màu nền khi nhấn */
+}
+
+/* Log out link */
+a:last-child {
+    background-color: #f44336;
+    /* Màu đỏ cho đăng xuất */
+}
+
+a:last-child:hover {
+    background-color: #e53935;
+    /* Màu đỏ đậm khi hover */
+}
+
+/* Styling for buttons */
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #2196F3;
+    /* Màu xanh dương cho nút */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1976D2;
+    /* Màu xanh dương đậm khi hover */
+}
+
+button:active {
+    background-color: #1565C0;
+    /* Màu xanh dương khi nhấn */
+}
